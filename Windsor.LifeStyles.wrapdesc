@@ -1,8 +1,0 @@
-﻿name: Castle.Windsor.Lifestyles
-depends: openwrap anchored content
-depends: castle.core
-depends: castle.windsor
-depends: rhinomocks
-depends: nunit
-depends: castle.windsor.lifestyles
-build: msbuild;project=src/Castle.Windsor.Lifestyles/Castle.Windsor.Lifestyles.csproj;
