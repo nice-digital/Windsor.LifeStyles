@@ -1,7 +1,7 @@
 
 require 'albacore'
 
-task :default => [:solutionbuild,:spec,:package,:buildwrap,:publishwrap]
+task :default => [:solutionbuild,:spec,:package,:updatesys,:buildwrap,:publishwrap]
 
 
 desc "Solution build"
@@ -16,6 +16,15 @@ nunit :spec do |nunit|
 	nunit.command = "./lib/nunit/nunit-console.exe"
 	nunit.assemblies "./src/Castle.Windsor.Lifestyles.Tests/bin/Release/Castle.Windsor.Lifestyles.Tests.dll"
 end
+
+desc "Update sys"
+task :buildwrap do |dep|
+   cmd = Exec.new
+	 cmd.command  = "o.exe"
+	 cmd.parameters = "update-wrap -sys"
+   cmd.execute
+end
+
 
 desc "Build Wrap"
 task :buildwrap do |dep|
