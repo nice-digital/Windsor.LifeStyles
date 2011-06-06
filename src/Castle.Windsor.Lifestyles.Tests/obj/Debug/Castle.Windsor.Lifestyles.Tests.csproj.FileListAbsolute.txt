@@ -1,0 +1,17 @@
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Castle.Windsor.Lifestyles.Tests.dll
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Castle.Windsor.Lifestyles.Tests.pdb
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Castle.Core.dll
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Castle.Windsor.dll
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Castle.Windsor.Lifestyles.dll
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\nunit.framework.dll
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\nunit.mocks.dll
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\pnunit.framework.dll
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Rhino.Mocks.dll
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Castle.Windsor.Lifestyles.pdb
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Castle.Core.xml
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Castle.Windsor.pdb
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\Castle.Windsor.xml
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\bin\Debug\nunit.framework.xml
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\obj\Debug\Castle.Windsor.Lifestyles.Tests.dll
+C:\dev\Windsor.LifeStyles\src\Castle.Windsor.Lifestyles.Tests\obj\Debug\Castle.Windsor.Lifestyles.Tests.pdb

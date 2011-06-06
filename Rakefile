@@ -7,13 +7,13 @@ desc "Solution build"
 msbuild :solutionbuild do |msb|	
     msb.properties :configuration => "Release"
     msb.targets :Clean, :Build
-    msb.solution = "Castle.Windsor.Lifestyles.sln"
+    msb.solution = "./src/Castle.Windsor.Lifestyles.sln"
 end
 
 desc "NUnit Tests"
 nunit :spec do |nunit|
 	nunit.command = "./lib/nunit/nunit-console.exe"
-	nunit.assemblies "./Castle.Windsor.Lifestyles.Tests/bin/Release/Castle.Windsor.Lifestyles.Tests.dll"
+	nunit.assemblies "./src/Castle.Windsor.Lifestyles.Tests/bin/Release/Castle.Windsor.Lifestyles.Tests.dll"
 end
 
 task :buildwrap do |dep|
