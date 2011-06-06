@@ -3,3 +3,4 @@ depends: openwrap anchored content
 depends: castle.core
 depends: castle.windsor
 build: msbuild;project=src/Castle.Windsor.Lifestyles/Castle.Windsor.Lifestyles.csproj;
+use-symlinks: false
