@@ -1,7 +1,7 @@
 
 require 'albacore'
 
-task :default => [:solutionbuild,:spec,:package,:updatesys,:buildwrap,:publishwrap]
+task :default => [:updatesys,:solutionbuild,:spec,:package,:buildwrap,:publishwrap]
 
 
 desc "Solution build"
