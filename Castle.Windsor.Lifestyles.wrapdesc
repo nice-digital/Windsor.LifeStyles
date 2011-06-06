@@ -5,3 +5,4 @@ depends: castle.windsor
 depends: rhinomocks
 depends: nunit
 depends: castle.windsor.lifestyles
+build: msbuild;project=Castle.Windsor.Lifestyles/Castle.Windsor.Lifestyles.csproj;
