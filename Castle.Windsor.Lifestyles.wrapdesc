@@ -1,4 +1,4 @@
-﻿name: Windsor.Lifestyles
+﻿name: Castle.Windsor.Lifestyles
 depends: openwrap anchored content
 build: msbuild;profile=net40;project=Castle.Windsor.Lifestyles/Castle.Windsor.Lifestyles.csproj;
 anchored: true
@@ -6,4 +6,4 @@ depends: castle.core
 depends: castle.windsor
 depends: rhinomocks
 depends: nunit
-depends: windsor.lifestyles
+depends: castle.windsor.lifestyles
