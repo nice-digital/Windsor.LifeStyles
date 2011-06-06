@@ -18,7 +18,7 @@ nunit :spec do |nunit|
 end
 
 desc "Update sys"
-task :buildwrap do |dep|
+task :updatesys do |dep|
    cmd = Exec.new
 	 cmd.command  = "o.exe"
 	 cmd.parameters = "update-wrap -sys"
