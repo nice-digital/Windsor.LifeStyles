@@ -1,4 +1,2 @@
 ﻿name: Castle.Windsor.Lifestyles
 depends: openwrap anchored content
-depends: castle.core
-depends: castle.windsor
