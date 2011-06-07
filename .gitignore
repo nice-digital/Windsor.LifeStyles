@@ -4,3 +4,5 @@ _ReSharper.*
 obj
 bin
 /wraps/_cache
+
+/src/_UpgradeReport_Files
