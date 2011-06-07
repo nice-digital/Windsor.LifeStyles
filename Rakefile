@@ -1,7 +1,24 @@
 
 require 'albacore'
 
-task :default => [:updatesys,:solutionbuild,:spec,:package,:buildwrap,:publishwrap]
+task :default => [:listwrap,:updatesys,:solutionbuild,:spec,:package,:buildwrap,:publishwrap]
+
+desc "List wrap - temp"
+task :listwrap do |dep|
+   cmd = Exec.new
+	 cmd.command  = "o.exe"
+	 cmd.parameters = "list-wrap"
+   cmd.execute
+end
+
+
+desc "Update sys"
+task :updatesys do |dep|
+   cmd = Exec.new
+	 cmd.command  = "o.exe"
+	 cmd.parameters = "update-wrap -sys"
+   cmd.execute
+end
 
 
 desc "Solution build"
@@ -17,13 +34,7 @@ nunit :spec do |nunit|
 	nunit.assemblies "./src/Castle.Windsor.Lifestyles.Tests/bin/Release/Castle.Windsor.Lifestyles.Tests.dll"
 end
 
-desc "Update sys"
-task :updatesys do |dep|
-   cmd = Exec.new
-	 cmd.command  = "o.exe"
-	 cmd.parameters = "update-wrap -sys"
-   cmd.execute
-end
+
 
 
 desc "Build Wrap"
